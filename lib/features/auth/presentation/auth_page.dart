@@ -25,6 +25,7 @@ class AuthPage extends StatelessWidget {
         ),
         border: const Border(),
         transitionBetweenRoutes: false,
+        automaticallyImplyLeading: false,
         backgroundColor: CupertinoColors.white,
       ),
       backgroundColor: AppColors.mainBGColor,

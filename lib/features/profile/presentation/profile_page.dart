@@ -101,6 +101,7 @@ class _ProfilePageState extends State<ProfilePage> {
               "Профиль",
             ),
             automaticallyImplyLeading: false,
+            transitionBetweenRoutes: false,
             border: Border(),
             backgroundColor: CupertinoColors.white,
           ),
